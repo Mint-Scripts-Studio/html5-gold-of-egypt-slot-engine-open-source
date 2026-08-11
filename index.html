@@ -1,0 +1,46 @@
+/**
+ * Project: HTML5 Casino & Slot Engine
+ * Developed and Maintained by Mint Scripts Studio
+ * Professional Web3 & iGaming Software Development
+ * 
+ * Official Website: https://mintscripts.net/
+ * Contact Telegram: @mintscripts
+ * 
+ * Clean source code, custom API integrations, and turnkey solutions.
+ */
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+        <style type = "text/css">
+            body{
+                background-image: url("png/Background_1.png"); /* The image used */
+                background-color: #cccccc; /* Used if the image is unavailable */  /* background: #a3a3a3; */
+                background-position: center; /* Center the image */
+                background-repeat: no-repeat; /* Do not repeat the image */
+                background-size: cover; /* Resize the background image to cover the entire container */
+                padding: 0px;
+                margin: 0px;
+            }
+            canvas{
+                display:block;
+                margin: 0;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        </style>
+        <script src = "js/phaser.js"></script>      
+    </head>
+	<body>
+            <!-- remove or comment unused configs before publish --> 
+        <script src = "js/slotConfig3x5.js"></script>                
+        <script src = "js/mkutils.js"></script>
+        <script src = "js/popups.js"></script>
+        <script src = "js/state_machine.js"></script>
+        <script src = "js/slot_classes.js"></script>
+	    <script src = "js/slotGame.js"></script>
+	</body>
+</html>
